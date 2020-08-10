@@ -1,0 +1,88 @@
+/* Overall Style */
+
+
+body {
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  color: #303030;
+  font-size: 16px;
+  line-height: 0;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  background-color: khaki;
+  text-align:  center;
+  position: fixed;
+  z-index: 2;
+
+}
+
+header .logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+header li {
+    display: inline;
+    padding-right: 1rem;
+  }
+
+header li a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#primary .flex-container  {
+  display: flex;
+  background-color: blue;
+  border-right: none;
+}
+
+.flex-container .first-pic img {
+  width: 60%;
+  padding: 2rem 1.5rem 2rem 0;
+  margin-right: 12px;
+  border-style: dashed;
+}
+
+.flex-container .flex-item {
+  display: flex;
+  width: 40%;
+  padding: 10rem 1.5rem 2rem 0;
+  background-color: grey;
+  border-style: dashed;
+  align-items:  center;
+  flex-direction: column;
+}
+
+.button {
+  text-align: center;
+  width: 200px;
+  background-color: black;
+  padding: 8px;
+  align-content: center;
+}
+
+#hurt .flex-container {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+  width: 60%;
+}
+
+.secound-pic img {
+  width: 40%;
+}
